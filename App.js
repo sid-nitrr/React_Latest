@@ -39,12 +39,5 @@ const parent = React.createElement(
     ]
 )
 
-//commenting below code as we r rendring parent now. 
-// const heading = React.createElement(
-//     'h1', //1st arg is what type of tag it is.
-//     {id: "heading"}, //2nd arg is atributes of 1st arg or tag. Its object.
-//     "Hello World from React!" //3rd arg is always a child of 1st arg or tag.
-// );
-// console.log(heading); //heading
-const root = ReactDOM.createRoot(document.getElementById("header"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent); //this render method converting heading object to h1 tag
