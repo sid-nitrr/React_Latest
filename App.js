@@ -46,5 +46,5 @@ const parent = React.createElement(
 //     "Hello World from React!" //3rd arg is always a child of 1st arg or tag.
 // );
 // console.log(heading); //heading
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("header"));
 root.render(parent); //this render method converting heading object to h1 tag
