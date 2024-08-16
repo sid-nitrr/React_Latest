@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /**
  * We want to create below like nested html str in react, via nesting child.
  * <div id = "parent">
@@ -23,7 +26,7 @@ const parent = React.createElement(
             "div",
             {id: "child1"},
             [
-                React.createElement("h1",{},"I am a h1 tag from Child1."),
+                React.createElement("h1",{},"Namaste React 🚀 from Child1."),
                 React.createElement("h2",{},"I am a h2 tag from Child1"),
             ]
                 
